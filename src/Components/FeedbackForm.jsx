@@ -11,7 +11,21 @@ const FeedbackForm = () => {
       <form className="feedback-form">
         <h2>We'd Love to Hear From You!</h2>
         <p>Please share your feedback with us.</p>
-        
+        <input
+          type="text"
+          name="name"
+          placeholder="Tu Nombre"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Tu Correo Electrónico"
+        />
+        <textarea
+          name="feedback"
+          placeholder="Tu Retroalimentación"
+        ></textarea>
+        <button type="submit">Enviar Retroalimentación</button>
       </form>
     </>
   );
